@@ -1,0 +1,18 @@
+TopoRender
+TopoRender
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool creates a pseudo-3D rendering from an input DEM, for the purpose of effective topographic visualization
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#TopoRender
+QgsProcessingParameterRasterLayer|input|Input Digital Elevation Model (DEM) Raster|None|False
+QgsProcessingParameterEnum|palette|Palette|atlas;high_relief;arid;soft;earthtones;muted;light_quant;purple;viridis;gn_yl;pi_y_g;bl_yl_rd;deep;imhof;white|False|3|True
+QgsProcessingParameterBoolean|rev_palette|Reverse the palette?|False|True
+QgsProcessingParameterNumber|az|Light Source Direction (degrees)|QgsProcessingParameterNumber.Double|315.0|True|None|None
+QgsProcessingParameterNumber|alt|Light Source Altitude (degrees)|QgsProcessingParameterNumber.Double|30.0|True|None|None
+QgsProcessingParameterNumber|background_hgt_offset|Offset Height of Background (z-units)|QgsProcessingParameterNumber.Double|10.0|True|None|None
+QgsProcessingParameterFeatureSource|polygon|Clipping Polygon|QgsProcessing.TypeVectorPolygon|None|True
+QgsProcessingParameterString|background_clr|Background RGB colour|[255, 255, 255]|False|True
+QgsProcessingParameterNumber|attenuation|Attenuation Parameter|QgsProcessingParameterNumber.Double|0.6|True|None|None
+QgsProcessingParameterNumber|ambient_light|Ambient Light|QgsProcessingParameterNumber.Double|0.2|True|None|None
+QgsProcessingParameterNumber|z_factor|Elevation Multiplier|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output File|None|False

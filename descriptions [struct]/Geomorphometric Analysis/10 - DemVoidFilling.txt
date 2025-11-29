@@ -1,0 +1,12 @@
+DemVoidFilling
+DemVoidFilling
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool can be used to fill the void areas of a DEM using another fill DEM data set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#DemVoidFilling
+QgsProcessingParameterRasterLayer|dem|Input DEM|None|False
+QgsProcessingParameterRasterLayer|fill|Input Fill DEM|None|False
+QgsProcessingParameterNumber|mean_plane_dist|Mean-Plane Distance (in grid cells)|QgsProcessingParameterNumber.Integer|20|True|None|None
+QgsProcessingParameterEnum|edge_treatment|Void-Edge Treatment|use DEM;use fill;average|False|0|True
+QgsProcessingParameterNumber|weight_value|Interpolation Weight|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output DEM|None|False
