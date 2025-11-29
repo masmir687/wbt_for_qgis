@@ -1,0 +1,10 @@
+RemoveRasterPolygonHoles
+RemoveRasterPolygonHoles
+Data Tools
+datatools
+Removes polygon holes, or 'donut-holes', from raster polygons
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/data_tools.html#RemoveRasterPolygonHoles
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|threshold|Threshold Size (Grid Cells):|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterBoolean|use_diagonals|Use diagonal neighbours during clumping?|True|True
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
