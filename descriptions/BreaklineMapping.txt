@@ -1,0 +1,10 @@
+BreaklineMapping
+BreaklineMapping
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool maps breaklines from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#BreaklineMapping
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|threshold|Threshold Value|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|min_length|Min. Line Length (In Grid Cells)|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector Lines File|QgsProcessing.TypeVectorLine|None|False

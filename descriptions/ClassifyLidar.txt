@@ -1,0 +1,15 @@
+ClassifyLidar
+ClassifyLidar
+LiDAR Tools
+lidartools
+Classify points within a LiDAR point cloud based on point properties
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#ClassifyLidar
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|radius|Search Distance:|QgsProcessingParameterNumber.Double|1.5|True|None|None
+QgsProcessingParameterNumber|grd_threshold|Ground Threshold:|QgsProcessingParameterNumber.Double|0.1|True|None|None
+QgsProcessingParameterNumber|oto_threshold|Off-Terrain Object Threshold:|QgsProcessingParameterNumber.Double|2.0|True|None|None
+QgsProcessingParameterNumber|planarity_threshold|Planarity Threshold:|QgsProcessingParameterNumber.Double|0.85|True|None|None
+QgsProcessingParameterNumber|linearity_threshold|Linearity Threshold:|QgsProcessingParameterNumber.Double|0.70|True|None|None
+QgsProcessingParameterNumber|iterations|Number of Iterations:|QgsProcessingParameterNumber.Integer|30|True|None|None
+QgsProcessingParameterNumber|facade_threshold|Facade Threshold:|QgsProcessingParameterNumber.Double|0.5|True|None|None
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|True

@@ -1,0 +1,7 @@
+LaunchWbRunner
+LaunchWbRunner
+Whitebox Utilities
+whiteboxutilities
+Opens the Whitebox Runner application
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/whitebox_utilities.html#LaunchWbRunner
+QgsProcessingParameterBoolean|clear_app_state|Clear the application state memory?|False|True
