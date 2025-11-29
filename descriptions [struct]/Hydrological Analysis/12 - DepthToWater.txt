@@ -1,0 +1,10 @@
+DepthToWater
+DepthToWater
+Hydrological Analysis
+hydrologicalanalysis
+This tool calculates cartographic depth-to-water (DTW) index
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#DepthToWater
+QgsProcessingParameterRasterLayer|dem|Input Raster DEM|None|False
+QgsProcessingParameterFeatureSource|streams|Input Streams Vector|QgsProcessing.TypeVectorLine|None|True
+QgsProcessingParameterFeatureSource|lakes|Input Lakes Vector|QgsProcessing.TypeVectorPolygon|None|True
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

@@ -1,0 +1,9 @@
+PilesjoHasan
+PilesjoHasan
+Hydrological Analysis
+hydrologicalanalysis
+This tool calculates Pilesjo and Hasan (2014) flow accumulation
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#PilesjoHasan
+QgsProcessingParameterRasterLayer|dem|Input DEM Raster|None|False
+QgsProcessingParameterNumber|exponent|Exponent Parameter|QgsProcessingParameterNumber.Double|1.0|True|None|None
+QgsProcessingParameterRasterDestination|output|Output Raster File|None|False
