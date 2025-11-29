@@ -1,0 +1,13 @@
+IndividualTreeDetection
+IndividualTreeDetection
+LiDAR Tools
+lidartools
+Calculates a heat map, or kernel density estimation (KDE), for an input point set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#IndividualTreeDetection
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|True|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterNumber|min_search_radius|Min. Search Radius|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterNumber|min_height|Min. Height|QgsProcessingParameterNumber.Double|0.0|False|None|None
+QgsProcessingParameterNumber|max_search_radius|Max. Search Radius|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterNumber|max_height|Max. Height|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterBoolean|only_use_veg|Only use veg. class points?|False|True
+QgsProcessingParameterVectorDestination|output|Output Vector|QgsProcessing.TypeVectorPoint|None|True

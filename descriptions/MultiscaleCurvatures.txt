@@ -1,0 +1,16 @@
+MultiscaleCurvatures
+MultiscaleCurvatures
+Geomorphometric Analysis
+geomorphometricanalysis
+This tool calculates several multiscale curvatures and curvature-based indices from an input DEM
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/geomorphometric_analysis.html#MultiscaleCurvatures
+QgsProcessingParameterRasterLayer|input|Input Raster DEM|None|False
+QgsProcessingParameterEnum|curv_type|Curvature Type|AccumulationCurv;Curvedness;DifferenceCurv;GaussianCurv;GeneratingFunction;HorizontalExcessCurv;MaximalCurv;MeanCurv;MinimalCurv;PlanCurv;ProfileCurv;RingCurv;Rotor;ShapeIndex;TangentialCurv;TotalCurv;Unsphericity;VerticalExcessCurv|False|10|True
+QgsProcessingParameterNumber|min_scale|Minimum Search Neighbourhood Radius (grid cells)|QgsProcessingParameterNumber.Integer|0|True|None|None
+QgsProcessingParameterNumber|step|Base Step Size|QgsProcessingParameterNumber.Integer|1|True|None|None
+QgsProcessingParameterNumber|num_steps|Number of Steps|QgsProcessingParameterNumber.Integer|1|False|None|None
+QgsProcessingParameterNumber|step_nonlinearity|Step Nonlinearity|QgsProcessingParameterNumber.Double|1.0|False|None|None
+QgsProcessingParameterBoolean|log|Log-transform the output?|True|True
+QgsProcessingParameterBoolean|standardize|Standardize Each Scale?|False|True
+QgsProcessingParameterRasterDestination|out_mag|Output Magnitude File|None|False
+QgsProcessingParameterRasterDestination|out_scale|Output Scale File|None|True
