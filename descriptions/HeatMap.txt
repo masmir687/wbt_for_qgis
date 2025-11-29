@@ -1,0 +1,13 @@
+HeatMap
+HeatMap
+GIS Analysis
+gisanalysis
+This tool calculates a heat map, or kernel density estimation (KDE), for an input point set
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/gis_analysis.html#HeatMap
+QgsProcessingParameterFeatureSource|input|Input Points|QgsProcessing.TypeVectorPoint|None|False
+QgsProcessingParameterString|weight_field|Weight Field Name (Optional)|None|False|True
+QgsProcessingParameterNumber|bandwidth|Bandwidth|QgsProcessingParameterNumber.Double|None|False|None|None
+QgsProcessingParameterEnum|kernel|Kernel Type|uniform;triangular;epanechnikov;quartic;triweight;tricube;gaussian;cosine;logistic;sigmoid;silverman|False|3|True
+QgsProcessingParameterNumber|cell_size|Output Raster Cell Size (Optional)|QgsProcessingParameterNumber.Double|None|True|None|None
+QgsProcessingParameterRasterLayer|base|Base Raster (Optional)|None|True
+QgsProcessingParameterRasterDestination|output|Output Raster Image|None|False

@@ -1,0 +1,9 @@
+NormalizeLidar
+NormalizeLidar
+LiDAR Tools
+lidartools
+Identifies points in a LiDAR point cloud that are associated with the tops of individual trees
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#NormalizeLidar
+QgsProcessingParameterFile|input|Input LiDAR File|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterRasterLayer|dtm|Input DTM Raster File|None|False
+QgsProcessingParameterFileDestination|output|Output Lidar File|LiDAR files (*.las *.laz *.zlidar)|None|False

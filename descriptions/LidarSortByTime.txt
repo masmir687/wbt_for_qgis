@@ -1,0 +1,8 @@
+LidarSortByTime
+LidarSortByTime
+LiDAR Tools
+lidartools
+This tool sorts the points in a LiDAR file by the GPS time
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/lidar_tools.html#LidarSortByTime
+QgsProcessingParameterFile|input|Input LiDAR Points|QgsProcessingParameterFile.File|None|None|False|Lidar Files (*.las *.laz *.zlidar)
+QgsProcessingParameterFileDestination|output|Output LiDAR Points|LiDAR files (*.las *.laz *.zlidar)|None|False
