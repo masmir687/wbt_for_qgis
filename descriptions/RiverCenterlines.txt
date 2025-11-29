@@ -1,0 +1,10 @@
+RiverCenterlines
+RiverCenterlines
+Hydrological Analysis
+hydrologicalanalysis
+Maps river centerlines from an input water raster
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/hydrological_analysis.html#RiverCenterlines
+QgsProcessingParameterRasterLayer|input|Input Raster Image|None|False
+QgsProcessingParameterNumber|min_length|Min. Line Length (In Grid Cells)|QgsProcessingParameterNumber.Integer|3|True|None|None
+QgsProcessingParameterNumber|radius|Search Radius (In Grid Cells)|QgsProcessingParameterNumber.Integer|4|True|None|None
+QgsProcessingParameterVectorDestination|output|Output Vector Lines File|QgsProcessing.TypeVectorLine|None|False

@@ -1,0 +1,7 @@
+ListUniqueValuesRaster
+ListUniqueValuesRaster
+Math and Stats Tools
+mathandstatstools
+Lists the unique values contained in a field within a vector's attribute table
+https://www.whiteboxgeo.com/manual/wbt_book/available_tools/mathand_stats_tools.html#ListUniqueValuesRaster
+QgsProcessingParameterFeatureSource|input|Input File|QgsProcessing.TypeVectorAnyGeometry|None|False
